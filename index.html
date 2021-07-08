@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>c-78</title>
+
+</head>
+<body>
+    <h1>Songs</h1>
+<p id="song_name"></p>
+<hr>
+<h2>Second song</h2>
+<hr>
+<p id="second_song"></p>
+<hr>
+<p id="last_song"></p>
+<hr>
+<p id="reversed"></p>
+<script>
+var song=["Runaway","cradles","Arcade"];
+console.log(song);
+document.getElementById("song_name").innerHTML=song;
+document.getElementById("second_song").innerHTML=song[1];
+song.push("Dusk till dawn");
+console.log(song);
+document.getElementById("last_song").innerHTML=song[3];
+song.reverse();
+console.log (song);
+document.getElementById("reversed").innerHTML=song
+</script>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
